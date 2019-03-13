@@ -61,13 +61,8 @@ public class UserRegistration extends AppCompatActivity {
             public void onResponse(Call<User> call, Response<User> response) {
                 if(response.isSuccessful()){
                     User newUser = response.body();
-                    Log.d("Message", "User created!");
                     Toast.makeText(getApplicationContext(), "User "+ newUser.getId() + " Created"  , Toast.LENGTH_SHORT).show();
-                } else {
-                    Log.d("Code", String.valueOf(response.code()));
-                    Log.d("Response Body", String.valueOf(response.body()));
                 }
-
             }
 
             @Override
