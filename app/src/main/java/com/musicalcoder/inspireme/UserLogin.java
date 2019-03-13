@@ -1,5 +1,6 @@
 package com.musicalcoder.inspireme;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -27,7 +28,9 @@ public class UserLogin extends AppCompatActivity {
     @OnClick(R.id.submit_login)
     public void submitLogin(View v) {
         userLogin();
-
+        Intent intent = new Intent(this, Categories.class);
+        startActivity(intent);
+        finish();
     }
 
     @Override
