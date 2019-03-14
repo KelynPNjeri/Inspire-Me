@@ -6,4 +6,12 @@
     <string name="enter_password">Enter Password</string>
     <string name="enter_name">Enter Full Name</string>
     <string name="confirm_password">Confirm Password</string>
+    <string name="category1">Category One</string>
+    <string name="category2">Category Two</string>
+    <string name="category3">Category Three</string>
+    <string name="category4">Category Four</string>
+    <string name="category5">Category Five</string>
+    <string name="category6">Category Six</string>
+
+
 </resources>
